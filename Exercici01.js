@@ -9,4 +9,5 @@ if(numeroAleatorio < 5) {
     divNumero.style.color = 'green';
 }
 window.open('encerta.html', 'Encerta', 'width=800,height=600');
+
 }
