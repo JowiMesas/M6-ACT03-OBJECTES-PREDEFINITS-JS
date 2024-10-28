@@ -2,7 +2,7 @@ let numeroAleatorio
 function play() {
 numeroAleatorio = Math.floor(Math.random() * 11);
 let divNumero = document.getElementById('numero');
-divNumero.textContent = numeroAleatorio;
+divNumero.innerText = numeroAleatorio;
 if(numeroAleatorio < 5) {
     divNumero.style.color = 'red';
 } else {
